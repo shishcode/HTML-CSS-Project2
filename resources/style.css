@@ -4,10 +4,14 @@ body {
     background-size: cover;
     background-position: top;
 }
+
 .header {
-    text-align: left; /* div'deki içeriği sola yaslamayı sağlar*/
-    padding: 20px; /* div'deki içeriğin her taraftan 20 piksellik boşluk olacak şekilde konumlanmasını sağlar*/
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* hangi font ailesinin  */
+    text-align: left;
+    /* div'deki içeriği sola yaslamayı sağlar*/
+    padding: 20px;
+    /* div'deki içeriğin her taraftan 20 piksellik boşluk olacak şekilde konumlanmasını sağlar*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* hangi font ailesinin  */
 
     color: #e5e5e5;
 }
@@ -72,13 +76,13 @@ body {
 .cardElement h1 {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#4582a4
+    color: #4582a4
 }
 
 .cardElement p {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#0d1920
+    color: #0d1920
 }
 
 .cardElement img {
@@ -87,7 +91,7 @@ body {
 }
 
 .rightPanelCard {
-    margin-left:20px;
+    margin-left: 20px;
     margin-bottom: 20px;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -102,33 +106,37 @@ body {
 }
 
 .rightPanelCard p {
-    text-align:justify;
+    text-align: justify;
 }
 
 #profilePhoto {
-    width:50%;
+    width: 50%;
     border-radius: 100%;
     filter: drop-shadow(0 4px 4px);
     transition: all 0.5s ease-in-out;
 }
+
 #profilePhoto:hover {
     /* transform: rotate(360deg); */
     animation-name: heart-beat;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-    
+
 }
+
 @keyframes heart-beat {
     0% {
-      transform: scale(1);
+        transform: scale(1);
     }
+
     50% {
-      transform: scale(1.1);
+        transform: scale(1.1);
     }
+
     100% {
-      transform: scale(1);
+        transform: scale(1);
     }
-  }
+}
 
 #myPic {
     width: 90%;
