@@ -1,7 +1,8 @@
 body {
-    background-image: url(https://media.tenor.com/mL_vvv35zRwAAAAC/pattern-abstract.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+     /* background-image: url(https://media.tenor.com/mL_vvv35zRwAAAAC/pattern-abstract.gif); */
+    background-image: url(https://bestanimations.com/media/horses/1575158404animated-horse-gif-113.gif);
+    background-repeat: repeat;
+    background-size: contain;
     background-position: top;
 }
 
