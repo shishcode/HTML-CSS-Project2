@@ -8,10 +8,10 @@ body {
 .header {
     text-align: left;
     /* div'deki içeriği sola yaslamayı sağlar*/
-    padding: 20px;
+    /* padding: 20px; */
     /* div'deki içeriğin her taraftan 20 piksellik boşluk olacak şekilde konumlanmasını sağlar*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* hangi font ailesinin  */
+    /* hangi font ailesinin kullanılacağını belirler*/
 
     color: #e5e5e5;
 }
@@ -25,6 +25,7 @@ body {
 }
 
 .topnav {
+    border-top: 10px snow outset;
     overflow: hidden;
     background-color: #4582a4;
     border-radius: 10px;
